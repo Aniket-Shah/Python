@@ -11,8 +11,7 @@ def runMatch():
             case 4 : 
                 divided()
             case _ : 
-                print("""You have enter the wrong operation number\n
-                      Do you want to enter again""")
+                print("You have enter the wrong operation number\nDo you want to enter again")
                 resetFlag= input("Reset the Opertion the Enter Y/N")
                 match resetFlag:
                         case "Y" : 
